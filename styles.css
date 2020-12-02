@@ -1,0 +1,73 @@
+/* Removing default bootstrap styling */
+* {
+    border: 0px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: top -500px left -410px, top 200px right -360px;
+}
+
+/* Styling Bootstrap card design */
+
+.card {
+    position: absolute;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    left: 35%;
+    top: 20%;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+.bg-pattern-card {
+    border-radius: 25px 25px 0 0;
+}
+
+.user-name {
+    padding-top: 20px;
+    padding-bottom: 0;
+    font-weight: bolder;
+    text-decoration: solid;
+    font-size: 18px;
+}
+
+.user-city {
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.age {
+    font-weight: 300;
+}
+
+.user-img {
+    position: absolute;
+    top: 90px;
+    left: 122px;
+    border-radius: 50%;
+}
+
+/* Styling User details in card */
+
+.type {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Footer */
+.attribution {
+    margin-top: 45%;
+}
+
+.card-footer {
+    display: flex;
+
+}
